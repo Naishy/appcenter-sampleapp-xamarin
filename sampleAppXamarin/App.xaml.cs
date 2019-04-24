@@ -10,8 +10,7 @@ namespace sampleAppXamarin
     {
         public App()
         {
-            AppCenter.Start("android=56a4c38c-9003-489d-b04b-c2c547fc23d5;" +
-                   "ios=b21e0878-63f9-4fd0-bcbf-94d1760c7f91;",
+            AppCenter.Start("c3748b80-b532-4143-af95-843ee25c6526;",
                    typeof(Analytics), typeof(Crashes));
             MainPage = new ButtonPage();
         }
